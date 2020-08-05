@@ -525,7 +525,7 @@
                                 </div>
                                 <div class="form-group">
 
-                                    <input class="form-control" type="text" name="Subject" placeholder="Subject" required="">
+                                    <input class="form-control" type="text" name="Subject" placeholder="country" required="">
                                 </div>
                             </div>
                             <div class="col-md-6 con-right" data-aos="fade-up">
@@ -877,11 +877,11 @@
 	</script>
 	<!-- //stats -->
 	 <script>
-        $("submit-form").submit((e) => {
+        $("#submit-form").submit((e) => {
             e.preventDefault()
             $.ajax({
-                url: "https://script.google.com/macros/s/AKfycbw_qu2iFRg0doim01SK-eURisU3f0zgyt_vS5aM/exec",
-                data: $("submit-form").serialize(),
+                url: "https://script.google.com/macros/s/AKfycby9HWVs2B48KEvjtUMd5NgftiKe_B4UyjBIy4d7D-yJk1LkvXk/exec",
+                data: $("#submit-form").serialize(),
                 method: "post",
                 success: function (response) {
                     alert("Form submitted successfully")
