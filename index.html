@@ -27,17 +27,15 @@
     <!-- Banner-Slider-CSS -->
     <link rel="stylesheet" href="css/snow.css">
     <link rel="stylesheet" href="css/aos.css">
-	<link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
+    <link href='css/aos-animation.css' rel='stylesheet prefetch' type="text/css" media="all" />
     <link rel="stylesheet" href="css/style.css" type="text/css" media="all" />
     <!-- Style-CSS -->
     <link rel="stylesheet" href="css/fontawesome-all.css">
-	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
     <!-- Font-Awesome-Icons-CSS -->
     <!-- /Fonts -->
     <link href="//fonts.googleapis.com/css?family=Roboto:100,100i,300,400,400i,500,500i,700,700i,900" rel="stylesheet">
     <!-- //Fonts -->
-    
-
+	
 </head>
 
 <body>
@@ -505,7 +503,7 @@
     </div>
     <!-- //testimonials -->
     <!-- /Contact-->
-    <section class="contact py-lg-5 py-md-5 py-3" id="contact">
+   <section class="contact py-lg-5 py-md-5 py-3" id="contact">
         <div class="container">
             <div class="inner-sec py-lg-5 py-3">
                 <h4 class="sub-tittle text-uppercase text-center">Find Me</h4>
@@ -516,21 +514,22 @@
                         <div class="row contact_left_grid">
                             <div class="col-md-6 con-left" data-aos="fade-up">
                                 <div class="form-group">
-
+                                     
                                     <input class="form-control" type="text" name="Name" placeholder="Name" required="">
+                                    
                                 </div>
                                 <div class="form-group">
 
-                                    <input class="form-control" type="email" name="Email" placeholder="Email Id" required="">
+                                    <input class="form-control" type="email" name="Email" placeholder="Mail id" required="">
                                 </div>
                                 <div class="form-group">
 
-                                    <input class="form-control" type="text" name="Subject" placeholder="country" required="">
+                                    <input class="form-control" type="text" name="country" placeholder="country" required="">
                                 </div>
                             </div>
                             <div class="col-md-6 con-right" data-aos="fade-up">
                                 <div class="form-group">
-                                    <textarea id="textarea" placeholder="More Text" required=""></textarea>
+                                    <textarea id="textarea" name="message"placeholder="Message" required=""></textarea>
                                 </div>
                             </div>
                             <div class="sub-honey mx-auto mt-3">
@@ -886,7 +885,7 @@
                 success: function (response) {
                     alert("Form submitted successfully")
                     window.location.reload()
-                    //window.location.href="https://www.hashimca.com"
+                        // window.location.href="https://www.hashimca.com"
                 },
                 error: function (err) {
                     alert("Something Error")
